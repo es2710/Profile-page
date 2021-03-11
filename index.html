@@ -7,28 +7,45 @@
   <meta charset="utf-8">
   <script src="https://kit.fontawesome.com/1cee19be83.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
   <div class ="container">
     <div class ="card-white">
       <h1>Hello, I'm Ed</h1>
-      <h2>I'm a Programmer (hopefully!)</h2>
+      <h2>I'm a Programmer (hopefully soon!)</h2>
 
       <img src="images/profile_picture.png" alt="Le Wagon logo" class="img-profile">
-      <p>
-        I love Tottenham Hotspurs, cycling and BBQ!
-        I am attending Le Wagon (batch 525) to learn to code and meet loads of cool new people.
-      </p>
-
+      <p> I love <span class="highlight-text">Tottenham Hotspurs 🏟, cycling 🚴 </span> and <span class="highlight-text"> BBQ 🍗 </span></p>
+      <p>I am attending <span class="highlight-text"> Le Wagon (batch 525) </span> to learn to code and meet loads of cool new people.</p>
       <p>I also started a cool(ish) blog. You can find it here:</p>
       <br>
-      <a href="http://thealternativeinvestors.co.uk/" class = btn-blue>The Alternative Investors</a>
+      <a href="http://thealternativeinvestors.co.uk/" class = btn-blue>Click here for my blog ...</a>
     </div>
 
-    <footer>
-      <h2>Follow me</h2>
-      <ul class ="list-inline">
+    <div class="card-white">
+      <h1>What am I listening to?</h1>
+      <p>I am loving listening to the this playlist when i'm on the BBQ.</p>
+      <p>I stole it from one of my favorite BBQ chefs - Christian Stevenson</p>
+      <iframe data-testid="spotify"
+        title="spotify-playlist/4etN3fawLp5rWiAFdJZQp5?si=bWljWzzsTq2kFj6hq5f-lQ" class="spotify-mdx-embed"
+        src="https://open.spotify.com/embed/playlist/4GlNfZOCuFlf2unpICw3fj" width="600" height="380" frameborder="0"
+        allowtransparency="true" allow="encrypted-media">
+      </iframe>
+    </div>
+
+    <div class ="card-white">
+      <h1>Let’s connect 🤙 </h1>
+      <p>For any work collaborations, fan letters or even a simple chat, take the first step and reach out via e-mail.
+      </p>
+      <form action="mailto:edward.sants@googlemail.com" method="post" class="home-form">
+          <legend>Subscribe to the Newsletter</legend>
+          <input type="email" name="email">
+          <button>Ok</button>
+      </form>
+      <p>Find me on social media at:</p>
+      <ul class="list-inline">
         <li>
           <a href="https://github.com/es2710" target="_blank" class="social-icon">
             <i class="fab fa-facebook-f"></i>
@@ -45,7 +62,8 @@
           </a>
         </li>
       </ul>
-    </footer>
+    </div>
+      
   </div>
 </body>
 </html>
